@@ -2,85 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7276343d-33d6-47d2-be1b-a8d37a0905a4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/intro_proj.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/bundle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/rails" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/rake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/spring" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/update" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/yarn" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/cable.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/puma.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/secrets.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/spring.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/log/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/integration/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/mailers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/system/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/.keep" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/intro_proj.iml" afterPath="$PROJECT_DIR$/.idea/intro_proj.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -95,8 +21,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -255,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520293699867</updated>
-      <workItem from="1520293701395" duration="189000" />
+      <workItem from="1520293701395" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189000" />
+    <option name="totallyTimeSpent" value="387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2368" y="8" width="2058" height="1308" extended-state="0" />
@@ -295,5 +253,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
