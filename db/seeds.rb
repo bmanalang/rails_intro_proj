@@ -8,6 +8,6 @@ options = { file_encoding: 'iso-8859-1',
 food_names = SmarterCSV.process(csv_foodfile, options)
 
 
-100.times do
-  Ingredient.create(ingredient_name: Faker::Food.ingredient)
+10.times do
+  Beer.create(beer_type: Faker::Beer.style)
 end
