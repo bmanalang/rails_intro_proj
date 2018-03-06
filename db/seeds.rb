@@ -1,7 +1,15 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+
+csv_foodfile = Rails.root + 'db/Food.csv'
+
+options = { file_encoding: 'iso-8859-1',
+            key_mapping: { fooddescription: :food_name } }
+
+food_names = SmarterCSV.process(csv_foodfile, options)
+
+
+require 'pp'
+
+Food.create(food_names.first)
+
+pp Food.first
