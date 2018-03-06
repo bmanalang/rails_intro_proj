@@ -5,5 +5,16 @@
   <%= @food.food_name %>
 </p>
 
+<p>
+  <strong>Ingredients:</strong>
+  <%= @ingredient %>
+</p>
+
+<p>
+  <strong>Beer Pairing:</strong>
+  <%= @beer %>
+</p>
+
+
 <%= link_to 'Edit', edit_food_path(@food) %> |
 <%= link_to 'Back', foods_path %>

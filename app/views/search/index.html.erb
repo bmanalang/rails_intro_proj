@@ -1,0 +1,8 @@
+<h1>Search Results</h1>
+<p>Your search for "<%= @search_terms %>" return <%= pluralize(@foods.size, 'result')%>.</p>
+
+<ul>
+<% @foods.each do |food| %>
+  <li><%= food.food_name %></li>
+    <% end %>
+</ul>
