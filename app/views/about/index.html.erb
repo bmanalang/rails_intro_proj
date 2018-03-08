@@ -1,2 +1,8 @@
-<h1>About#index</h1>
-<p>Find me in app/views/about/index.html.erb</p>
+<h1>About</h1>
+<p>There are 3 tables: Foods, Ingredients & Beers</p>
+<p>The data I used for the Foods table comes from a CSV file made available by the GOC Health Canada Food and Nutrition.
+The data for Ingredients & Beers comes from using Faker.</p>
+<p>My one-to-many relationship is between Food & Beer: Food may only have 1 beer suggestion.  Beer type may have one or many foods.</p>
+<p>The many-to-many relationship exists between Foods & Ingredients.</p>
+<br>
+<p><%= link_to 'Welcome', controller: 'welcome' %></p>
