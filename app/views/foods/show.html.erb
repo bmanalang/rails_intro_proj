@@ -6,7 +6,9 @@
 </p>
 <p>
   <strong>Ingredient:</strong>
-  <%= @food.ingredients %>
+  <% @food.ingredients.each do |o| %>
+     <%= o.ingredient_name %>
+  <% end %>
 </p>
 
 
