@@ -1,10 +1,4 @@
 
-8.times do
-  beer = Beer.new
-  beer.beer_type = Faker::Beer.style
-  beer.save
-end
-
 csv_foodfile = Rails.root + 'db/Food.csv'
 
 options = { file_encoding: 'iso-8859-1',
