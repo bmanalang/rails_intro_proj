@@ -1,4 +1,9 @@
-Food.delete_all
+
+8.times do
+  beer = Beer.new
+  beer.beer_type = Faker::Beer.style
+  beer.save
+end
 
 csv_foodfile = Rails.root + 'db/Food.csv'
 
@@ -12,12 +17,8 @@ food_names.each do |f|
 
   ingredients = Faker::Food.ingredient
   ingredients.each do |i|
-    ing = Ingredient.find_or_create_by(ingredient_name: i)
+    ing = Ingredient.create(ingredient_name: i)
     FoodIngredient.create(food_name: food, ingredient: ing)
   end
 
-  beer = Faker::Beer.style
-  beer.each do |b|
-    Beer.create(b)
-  end
 end
